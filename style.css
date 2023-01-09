@@ -1,0 +1,526 @@
+.disclaimer {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+button.iguh, button.kjg {
+    width: 300px;
+   min-width: 300px;
+    margin-bottom: 26px;
+}
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto',
+            sans-serif;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .disclaimer {
+        display: none;
+    }
+
+    body {
+        background-color: #F6F6F6;
+    }
+
+    a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .disclaimer {
+        display: none;
+    }
+
+    .mainbody {
+        width: 100%;
+        margin-bottom: 60px;
+        background: #F6F6F6;
+    }
+
+
+    /* menu css */
+    .menulink img {
+        width: 20px;
+    }
+
+    .mobilemenu {
+        position: fixed;
+        bottom: 0;
+        background: white;
+        width: 100%;
+        box-shadow: 0 2px 4px #555555;
+        height: 50px;
+        left: 0;display: flex;
+    }
+
+    .menuinner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .pd20 {
+        padding: 0 20px;
+    }
+
+    /* menu css */
+
+    /* top profile wallet css */
+    .wallet svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .profile img,
+    .wallet img {
+        width: 40px;
+        object-fit: cover;
+        height: auto;
+        max-height: 40px;
+        border-radius: 50px;
+    }
+
+    .topprofile {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile a {
+        display: flex;
+        align-items: center;
+        flex-direction: inherit;
+        text-decoration: none;
+        color: black;
+    }
+
+    p.name {
+        font-size: 22px;
+        font-weight: bolder;
+        margin-left: 18px;
+    }
+
+    /* top profile wallet css */
+
+    /* stats */
+    .stats {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        grid-gap: 4%;
+    }
+
+    .sleft,
+    .sright {
+        height: 90px;
+        padding: 12px 14px;
+        width: 211px;
+        left: calc(50% - 211px/2 - 144.5px);
+        top: calc(50% - 86px/2 - 310px);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .sleft {
+        background-color: white;
+    }
+
+    .sright {
+        background-color: #179A94;
+        color: white;
+    }
+
+    .sleft,
+    .sright {
+        box-shadow: 0 0 12px 6px #6a6a6a1c;
+    }
+
+    p.boldmg {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    p.nobold {
+        font-size: 18px;
+    }
+
+    /* stats end */
+
+    /* monthly activity start */
+    h2.txnact {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .txnsinner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+
+    a.viewalllink {
+        background: white;
+        padding: 8px 12px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 12px;
+        color: black;
+    }
+
+    /* txn detail */
+
+    .txndetail {
+        display: flex;
+        align-items: center;
+        height: 70px;
+        grid-gap: 2%;
+        justify-content: space-between;
+        border: 1px solid #E5E5E5;
+    }
+
+    .txhjfg {
+        overflow-y: scroll;
+    }
+
+    .yhtg {
+        display: flex;
+        align-items: center;
+        align-content: stretch;
+    }
+
+    .loigl {
+        margin-left: 18px;
+    }
+
+    h3.namedesc {
+        margin-bottom: 4px;
+    }
+
+    span.spansor {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    img.explogo {
+        width: 40px;
+    }
+
+    .totalji {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 27px 0;
+    }
+
+    .marginal {
+        padding: 2px;
+    }
+
+
+    /* Reports section */
+
+    a.nmd {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        flex-direction: initial;color: black;
+    }
+
+    .epft {
+        border: 1px solid #E5E5E5;
+    }
+
+    h1.sectitle {
+        margin: 22px 0;
+        font-size: 22px;
+    }
+
+    .userprofilesjk {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .userprofilesjk img {
+        width: 100px;
+        max-width: 100px;
+        object-fit: cover;
+        height: 100px;
+        max-height: 100px;
+        border-radius: 50px;
+        margin: 10px;
+    }
+
+    p.state,
+    p.phone {
+        margin: 12px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    h2.username {
+        margin-bottom: 20px;
+    }
+
+    button.EDITUSER {
+        background: black;
+        padding: 16px 22px;
+        color: white;
+        margin-top: 20px;
+        border: none;
+        letter-spacing: .2rem;
+        border-radius: 8px;
+    }
+
+
+    .userjikiprofile img {
+        width: 100px;
+        max-width: 100px;
+        max-height: 100px;
+        height: 100px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+
+    input.changeporifle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        opacity: 0;
+        height: 100px;
+    }
+
+    .userjikiprofile {
+        position: relative;
+    }
+
+    .userupdate {
+        padding: 10px 20px;
+    }
+
+    h1.editjiuser {
+        margin: 0 0 20px 0;
+    }
+
+    .ffields {
+        display: flex;
+        flex-direction: column;
+        margin: 16px 0;
+    }
+
+    .ffields input,
+    .ffields select {
+        margin: 8px 0;
+        background: transparent;
+        border: 1px solid;
+        padding: 12px;
+    }
+
+    button.kjg {
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        border: none;
+        font-size: 18px;
+        background: #009688;
+        color: white;
+    }
+
+    button.iguh {
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        border: none;
+        background: #ff2222;
+        color: white;
+        font-size: 18px;
+    }
+
+
+
+    .transact {
+        max-width: 450px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .slectionji {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        font-size: 22px;
+    }
+
+    .jishow {
+        border-bottom: 5px solid #179A94;
+    }
+
+    .slectionji div {
+        width: 100%;
+        text-align: center;
+        padding: 6px;
+        font-size: 16px;cursor: pointer;
+    }
+
+    .notfound {
+        display: flex;
+        align-items: center;
+        height: 180px;
+        background: white;
+        margin: 20px;
+        text-align: center;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    p.jitext.pd20 {
+        line-height: 1.6;
+        font-size: 20px;
+    }
+
+    span.kjl {
+        font-weight: bolder;
+    }
+
+    .jipopup {
+        position: fixed;
+        top: 90px;
+        width: 90%;
+        background: white;
+        height: 62%;
+        left: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        box-shadow: 1px 5px 20px 17px #0096880a;
+    }
+
+    .jipopup form {
+        width: 90%;
+    }
+
+    a#jireomve {
+        position: absolute;
+        top: 76px;
+        z-index: 2;
+        background: black;
+        padding: 8px 12px;
+        left: 88%;
+        border-radius: 22px;
+        color: white;
+    }
+
+    .jipopup form input[type="text"] {
+        padding: 8px;
+        display: block;
+        border: 1px solid;
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    .jipopup form input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+        margin-top: 12px;
+        background-color: #009688;
+        color: white;
+        border: none;
+    }
+
+    span.uhkg {
+        color: black;
+        font-size: 12px;
+    }
+
+
+    .subscribepremium {
+        position: absolute;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background: white;
+    }
+
+    .ffielgdgf {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    input.jipromocode {
+        padding: 8px;
+        border: 1px solid;
+        margin-top: 4px;
+    }
+
+    .jdgsubmit input[type="submit"] {
+        padding: 8px;
+        width: 100%;
+        background: black;
+        color: white;
+    }
+
+    form.subscribeform {
+        min-width: 300px;
+        box-shadow: 0 0 12px 6px #0000ff1c;
+        border-radius: 8px;
+        padding: 19px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+
+
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .jicloseji {
+        position: absolute;
+        top: 23px;
+        right: 24px;
+        background: beige;
+        border-radius: 50px;
+        padding: 12px 18px;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    p.spanop {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .subscribepremium {
+        display: none;
+    }
+
+    .dexkl {
+        margin-top: 40px;
+    }
+}

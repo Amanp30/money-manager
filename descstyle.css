@@ -1,0 +1,378 @@
+@media (min-width : 600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto',
+            sans-serif;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .mainbody {
+
+        width: 800px;
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .topprofile.pd20 {
+        display: flex;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .profile img {
+        width: 50px;
+        border-radius: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+
+
+    .profile a {
+        display: flex;
+        align-items: center;
+    }
+
+    p.name {
+        margin-left: 12px;
+        font-size: 22px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .wallet svg {
+        width: 25px;
+    }
+
+
+    .lkjgg {
+        display: flex;
+        margin: 25px 0;
+        grid-gap: 5%;
+    }
+
+    .dexkl {
+        width: 100%;
+    }
+
+    .mobilemenu {
+        width: 25%;
+    }
+
+    a.menulink {
+        display: flex;
+        align-items: center;
+    }
+
+    a.menulink img {
+        width: 20px;
+        height: 20px;
+        border-radius: 8px;
+    }
+
+    span.uhkg {
+        margin-left: 12px;
+    }
+
+    .menuinner div {
+        background: #eeeeee;
+        margin-bottom: 12px;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .stats.pd20 {
+        display: flex;
+        grid-gap: 5%;
+        margin-bottom: 16px;
+    }
+
+    .sleft {
+        height: 70px;
+        background: white;
+        box-shadow: 0 0 10px 10px #00000005;
+        min-width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    .sright {
+        height: 70px;
+        background: #009688;
+        box-shadow: 0 0 10px 10px #00000005;
+        min-width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 12px;
+        border-radius: 12px;
+        color: white;
+    }
+
+
+    .txnsinner.pd20 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+
+    .txndetail.pd20 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
+    .yhtg {
+        display: flex;
+        align-items: center;
+    }
+
+    .loigl {
+        margin-left: 12px;
+    }
+
+    .totalji.pd20 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-top: 20px;
+        box-shadow: 0 0 9px 0px #8080801a;
+        padding: 12px 6px;
+        border-radius: 9px;
+    }
+
+    span.spansor {
+        font-weight: bold;
+    }
+
+    .slectionji {
+        display: flex;
+        justify-content: space-around;
+        padding: 12px;
+    }
+
+    .jishow {
+        border-bottom: 8px solid #009688;
+    }
+
+    p.boldmg {
+        margin-bottom: 4px;
+    }
+
+    p.jitext.pd20 {
+        width: 100%;
+        background: #f0f0f0fa;
+        height: 100px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    div#hide,
+    div#show {
+        cursor: pointer;
+    }
+
+
+    .menuinner.pd20 {
+        position: sticky;
+        top: 70px;
+    }
+
+
+    .slectionji {
+        position: sticky;
+        top: 69px;
+        width: 100%;
+        background: white;
+    }
+
+    .topprofile.pd20 {
+        position: sticky;
+        top: 0;
+        background: white;
+    }
+
+    .evjh {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .evjh button {
+        min-width: 250px;
+        padding: 12px;
+        color: white;
+        max-width: 320px;
+        border-radius: 8px;
+        font-size: 18px;
+        border: none;
+    }
+
+    button.kjg {
+        background: red;
+    }
+
+    button.iguh {
+        background: #388e3c;
+    }
+
+    .ffields {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ffields input,
+    .ffields select {
+        padding: 12px;
+        margin: 8px 0 12px;
+        font-size: 18px;
+        width: 90%;
+    }
+
+    form.editu {
+        margin-top: 18px;
+    }
+
+    button.EDITUSER {
+        width: 90%;
+        padding: 16px;
+        border-radius: 8px;
+        border: none;
+        background: black;
+        margin-top: 12px;
+        color: white;
+    }
+
+    .epft.pd20 {
+        border-bottom: 1px solid;
+        border-top: 1px solid;
+    }
+
+    a.nmd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 8px;
+    }
+
+    .userprofilesjk {
+        text-align: center;
+    }
+
+    .userprofilesjk img {
+        width: 100px;
+        border-radius: 50px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .userprofilesjk p {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+        margin-bottom: 12px;
+    }
+
+    h1.sectitle.pd20 {
+        margin-bottom: 18px;
+    }
+
+    .userjikiprofile {
+        position: relative;
+    }
+
+    input#chgimg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 140px;
+        opacity: 0;
+    }
+
+    img#jiimage {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .subscribepremium {
+        position: absolute;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background: white;
+    }
+
+    .ffielgdgf {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    input.jipromocode {
+        padding: 8px;
+        border: 1px solid;
+        margin-top: 4px;
+    }
+
+    .jdgsubmit input[type="submit"] {
+        padding: 8px;
+        width: 100%;
+        background: black;
+        color: white;
+    }
+
+    form.subscribeform {
+        min-width: 300px;
+        box-shadow: 0 0 12px 6px #0000ff1c;
+        border-radius: 8px;
+        padding: 19px;
+        width: 300px;
+        position: absolute;
+        top: 40vh;
+        left: 40vw;
+    }
+
+    .jicloseji {
+        position: absolute;
+        top: -23px;
+        right: -24px;
+        background: beige;
+        border-radius: 50px;
+        padding: 12px 18px;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    p.spanop {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .subscribepremium {
+        display: none;
+    }
+}

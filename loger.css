@@ -1,0 +1,48 @@
+/* login register */
+
+
+
+.disclaimer {
+    display: none;
+}
+
+.ffields {
+    display: flex;
+    flex-direction: column;
+}
+
+.formclass .ffields input {
+    border: 1px solid;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+form.formclass {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+}
+
+input#logregi {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    background: #179A94;
+    border: none;
+    color: white;
+}
+
+.clogo {
+    max-width: 450px;
+    margin: auto;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 32px auto 12px;
+}
+
+p.showcondition {
+    max-width: 450px;
+    margin: 12px auto;
+    padding: 12px;
+    border-radius: 8px;
+}
